@@ -120,6 +120,17 @@ To measure the performance of our algorithms, the site mention the F1 score whic
 
 This is the target variable for predicting the level of impact that earthquake caused, for housing reconstruction. The project had been built in python using vscode®, and submitted to Data Driven®, getting a result of 0.74444 that is among 6% of the ranking.
 
+**To run the project**
+
+Download the data set from [1] and put them into the input directory, change directory to the project directory, then run
+*$ python cross_validation.py*
+*$ sh train.sh XGBClassifier*
+
+then the training model result is displayed,
+*$ sh predict.sh*
+
+A submission csv file is generates to upload to the project website for evaluation.
+
 
 **Bibliography**
 
