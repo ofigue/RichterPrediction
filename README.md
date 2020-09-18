@@ -123,11 +123,11 @@ This is the target variable for predicting the level of impact that earthquake c
 **To run the project**
 
 Download the data set from [1] and put them into the input directory, change directory to the project directory, then run
-*> python cross_validation.py*
-*> sh train.sh XGBClassifier*
+`> python cross_validation.py`
+`> sh train.sh XGBClassifier`
 
 then the training model result is displayed,
-*> sh predict.sh*
+`> sh predict.sh`
 
 A submission csv file is generates to upload to the project website for evaluation.
 
