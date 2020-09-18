@@ -37,10 +37,10 @@ It is observed that they are not balanced data, the number of occurrences of the
 
 There are 39 features that have been analyzed differentiating between numerical and categorical attributes. In the case of numerical features:
 
-•	count_floors_pre_eq
-•	age
-•	area_percentage
-•	height_percentage
+* count_floors_pre_eq
+* age
+* area_percentage
+* height_percentage
 
 in which a evident bias was identified, practically in all these variables, which indicates the existence of outlier values that can harm the prediction process. In this case, processes were applied that reduce the intensity of this observed bias.
 
@@ -48,53 +48,53 @@ In the particular case of the feature count_families, it was not transformed and
 
 In the case of the features related to the geographical region, it was identified that these features from their concept are of the categorical type since they represent regions in Nepal.
 
-•	geolevel_1_id
-•	geolevel_2_id
-•	geolevel_3_id
+* geolevel_1_id
+* geolevel_2_id
+* geolevel_3_id
 
 The problem in this case was that for each feature there is a very high number of categorical values, so in this case it was decided to transform these features by applying the conditional probability related to the target, which generated nine new features.
 
 
 The data set has the following features that are categorical, they describe, in general, types of materials used in the type of land constructions, and some of the position tasks, among others. All these encoded,
 
-•	land_surface_condition
-•	foundation_type
-•	roof_type
-•	ground_floor_type
-•	other_floor_type
-•	position
-•	plan_configuration
-•	legal_ownership_status
+* land_surface_condition
+* foundation_type
+* roof_type
+* ground_floor_type
+* other_floor_type
+* position
+* plan_configuration
+* legal_ownership_status
 
 What is observed is first that there is a coincidence between specific values of some of these features regarding the distribution in relation to the feature target. This indicates that there is a set of common characteristics in various buildings. In addition to the distribution in relation to the target, it is very similar in the values mentioned.
 
 These following features are binary in the data, in this case it was determined to keep them as is, because they are binary valued:
 
-•	has_superstructure_adobe_mud
-•	has_superstructure_mud_mortar_stone
-•	has_superstructure_stone_flag
-•	has_superstructure_cement_mortar_stone
-•	has_superstructure_mud_mortar_brick
-•	has_superstructure_cement_mortar_brick
-•	has_superstructure_timber
-•	has_superstructure_adobe_bamboo
-•	has_superstructure_rc_non_engineered
-•	has_superstructure_rc_engineered
-•	has_superstructure_other
+* has_superstructure_adobe_mud
+* has_superstructure_mud_mortar_stone
+* has_superstructure_stone_flag
+* has_superstructure_cement_mortar_stone
+* has_superstructure_mud_mortar_brick
+* has_superstructure_cement_mortar_brick
+* has_superstructure_timber
+* has_superstructure_adobe_bamboo
+* has_superstructure_rc_non_engineered
+* has_superstructure_rc_engineered
+* has_superstructure_other
 
 The same as the features before, the ones following are binary, in this case it was determined to keep them as is, with the exception of the feature “has_secondary_use” which was redundant and was removed.
 
 
-•	has_secondary_use_agriculture
-•	has_secondary_use_hotel
-•	has_secondary_use_rental
-•	has_secondary_use_institution
-•	has_secondary_use_school
-•	has_secondary_use_industry
-•	has_secondary_use_health_post
-•	has_secondary_use_gov_office
-•	has_secondary_use_use_police
-•	has_secondary_use_other
+* has_secondary_use_agriculture
+* has_secondary_use_hotel
+* has_secondary_use_rental
+* has_secondary_use_institution
+* has_secondary_use_school
+* has_secondary_use_industry
+* has_secondary_use_health_post
+* has_secondary_use_gov_office
+* has_secondary_use_use_police
+* has_secondary_use_other
 
 
 It had been created a set of features, that were of great help to obtain higher prediction results, which are the following,
