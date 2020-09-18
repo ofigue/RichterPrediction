@@ -100,15 +100,15 @@ The same as the features before, the ones following are binary, in this case it 
 It had been created a set of features, that were of great help to obtain higher prediction results, which are the following,
 
 
-['CntFloorAge'] = ['count_floors_pre_eq']/(['age']+0.1)
-['CntFloorsArea'] = ['count_floors_pre_eq']/['area_percentage']
-['CntFloorsHeight'] = ['count_floors_pre_eq']/['height_percentage']
-['AreaPerAge'] = ['area_percentage']/(['age']+0.1)
-['HeightPerAge'] = ['height_percentage']/(['age']+0.1)
-['AreaPerHeight'] = ['area_percentage']/['height_percentage']
-['CntFamFloors'] = ['count_families']/['count_floors_pre_eq']
-['CntFamArea'] = ['count_families']/['area_percentage']
-['CntFamHeight'] = ['count_families']/['height_percentage']
+CntFloorAge = count_floors_pre_eq/(age+0.1)
+CntFloorsArea = count_floors_pre_eq/area_percentage
+CntFloorsHeight = count_floors_pre_eq/height_percentage
+AreaPerAge = area_percentage/(age+0.1)
+HeightPerAge = height_percentage/(age+0.1)
+AreaPerHeight = area_percentage/height_percentage
+CntFamFloors = count_families/count_floors_pre_eq
+CntFamArea = count_families/area_percentage
+CntFamHeight = count_families/height_percentage
 
 
 **Performance metrics**
