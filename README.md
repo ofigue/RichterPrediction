@@ -29,9 +29,9 @@ The exploratory data analysis was performed by analyzing the context of the prob
 
 Starting with the feature label corresponding to “damage_grade”, in which it was observed that it has three possible values according to the degree of intensity of the destruction of the buildings in the place where the earthquake occurred, they are the following:
 
-	1 represents low damage
-	2 represents a medium amount of damage
-	3 represents almost complete destruction
+* 1 represents low damage
+* 2 represents a medium amount of damage
+* 3 represents almost complete destruction
 
 It is observed that they are not balanced data, the number of occurrences of the first value of "1" is much lower than the other two remaining. In addition, it is worth mentioning that this feature is ordinal type and has a specific order associated with the degree of intensity of the earthquake.
 
