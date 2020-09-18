@@ -1,9 +1,9 @@
-### Project: Richter's Predictor: Modeling Earthquake Damage
+## Project: Richter's Predictor: Modeling Earthquake Damage
 
 Web site: https://www.drivendata.org/competitions/57/nepal-earthquake/
 
 
-Introduction
+**Introduction**
 
 This project is based on the competition Driven Data published related to an earthquake [1] that took place at Nepal on April 2015 with a magnitude of 7.8 Mw according to a US Geological Survey [2], Its epicenter was east of Gorkha. It killed nearly 9,000 people and injured nearly 22,000[3].
 
@@ -14,7 +14,7 @@ This document analyses the elements that eventually affect the degree of damage 
 The result of the project was uploaded in order to score the predictions that we got, which generated a response that is within 6% of the global participant results in this competition.
 
 
-Dataset description
+**Dataset description**
 
 The data was collected by Kathmandu Living Labs and the Central Bureau of Statistics, using mobile technology for identifying the impact it had. The initial purpose was to identify beneficiaries for government assistance, but it also became helpful for studying the impact damage related to the household characteristics.
 
@@ -22,12 +22,7 @@ The data was collected by Kathmandu Living Labs and the Central Bureau of Statis
 The data is composed of three files, train, test and submission files, in the case of the training file, it has 260,601 rows, and the test file has 86,868 rows. The description of every feature is in the Description Section of the web site [1]. It has 39 features and a target that is the damage grade the earthquake caused to buildings in Nepal
 
 
-
-
-
-
-
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 
 
 The exploratory data analysis was performed by analyzing the context of the problem and the characteristics of the variables as observed in the directory of the project, in this case “Exploration.ipynb” in the notebooks directory of the project.
@@ -116,17 +111,17 @@ It had been created a set of features, that were of great help to obtain higher 
 ['CntFamHeight'] = ['count_families']/['height_percentage']
 
 
-Performance metrics
+**Performance metrics**
 
 To measure the performance of our algorithms, the site mention the F1 score which balances the precision and recall of a classifier. Traditionally, the F1 score is used to evaluate performance on a binary classifier, but since we have three possible labels we will use a variant called the micro averaged F1 score.
 
 
-Results
+**Results**
 
 This is the target variable for predicting the level of impact that earthquake caused, for housing reconstruction. The project had been built in python using vscode®, and submitted to Data Driven®, getting a result of 0.74444 that is among 6% of the ranking.
 
 
-Bibliography
+**Bibliography**
 
 [1] Driven Data. (2018). Richter's Predictor: Modeling Earthquake Damage. 01-01-2018, de Driven Data Sitio web: 
 https://www.drivendata.org/competitions/57/nepal-earthquake/page/134/
