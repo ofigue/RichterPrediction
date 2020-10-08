@@ -122,9 +122,13 @@ This is the target variable for predicting the level of impact that earthquake c
 
 **To run the project**
 
-Download the data set from [1] and put them into the input directory, change directory to the project directory, then run\
+Download the dataset from [1] and put them into the input directory, 
+run the following jupyter notebook from notebooks directory
+`Exploration.ipynb`
+
+change directory to the project directory, then run\
 `$ python cross_validation.py`\
-`$ sh train.sh XGBClassifier`
+`$ sh train.sh randomforest`
 
 then the training model result is displayed,\
 `$ sh predict.sh`
